@@ -9,7 +9,7 @@
 <body>
   <header>
       <nav>
-          <h1>GOGULA PRASAD - VLSI DV Engineer</h1>
+          <h1>GOGULA PRASAD - RTL Design & Verification Engineer</h1>
           
           <ul>
               <li><a href="#personal">Home</a></li>
@@ -34,19 +34,50 @@
 
   <!-- Hero / Personal -->
   <section id="personal" class="personal">
-      <h3><b>Profile Summary</b></h3>
+      
       <div class="personal-content">
           <img src="mypic.png"
                alt="Professional headshot of a VLSI design verification student" />
-          <p> 
-              <strong>Hi! I'm GOGULA PRASAD</strong>
-         </p>
-         <p>  <strong>Entry-level VLSI Design Verification Engineer with experience in RTL verification, UVM
-testbench development, constrained-random testing, functional coverage, and assertions
-(SVA). Skilled in Verilog and SystemVerilog with strong simulation debugging and
-regression testing experience using ModelSim and EDA Playground. Looking to contribute to
-semiconductor verification teams delivering reliable silicon designs.</strong>
+          <p><strong>Hi! I'm PRASAD GOGULA</strong></p>
+         <p></p>
+         <h3>Profile Summary</h3>
+         <p><strong>VLSI Design Verification Engineer with hands-on experience in synthesizable Verilog/SystemVerilog coding and UVM-based verification. Skilled in FSM and digital RTL design, constrained-random verification, and SVA, with strong debugging experience using EDA Playground and ModelSim. Passionate about building reliable, silicon-ready designs and contributing effectively to semiconductor development teams.</strong>
           </p>
+      </div>
+  </section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        <div class="project-card">
+            <img src="axi.png" alt="VLSI Project" />
+            <h4><strong>AXI Protocol</strong></h4>
+            <p>Developing an AXI-compliant interface involves designing synthesizable RTL modules in Verilog to enable high-speed, 
+               efficient communication between processors, memory, and peripherals in ARM-based systems, with careful implementation 
+               of all AXI protocol channels—including read and write address, write data, read data, and response paths—while ensuring 
+               proper handshaking, burst transactions, and timing requirements are met; the design is then rigorously validated through 
+               simulation to verify protocol compliance, data integrity, and correct behavior under various traffic and corner-case 
+               scenarios.</p>
+        </div>
+        <div class="project-card">
+            <img src="APB Protocol Architecture.jpg" alt="VLSI Project" />
+            <h4><strong>APB Protocol</strong></h4>
+            <p>Designed and implemented the AMBA 3 APB protocol in RTL using Verilog, covering all key signals and ensuring correct 
+                state transitions between setup and access phases, and further verified the implementation using UVM-based testbenches 
+                to validate read and write transactions, as well as to ensure proper protocol behavior and state transition accuracy 
+                under different scenarios.
+</p>
+        </div>
+        <div class="project-card">
+            <img src="Dual Port RAM Architecture.jpg" alt="VLSI Project" />
+            <h4><strong>Dual-Port Ram</strong></h4>
+            <p>Designed and implemented a dual-port RAM in RTL using Verilog, enabling simultaneous read and write operations on 
+                independent ports with proper handling of address, data, and control signals, and developed a comprehensive testbench 
+                to verify concurrent access, read/write functionality, and edge cases, while leveraging waveform debugging to analyze 
+                signal activity, identify timing issues, and ensure correct and reliable simulation behavior.</p>
+        </div>
       </div>
   </section>
 
@@ -54,37 +85,12 @@ semiconductor verification teams delivering reliable silicon designs.</strong>
   <section id="education" class="education">
       <h3>Academic Background</h3>
       <ul class="education-list">
-          <li><strong>VLSI Design Verification Trainee</strong> - VLSIGuru Training Institute (Progress)</li>
+          <li><strong>VLSI Design Verification Trainee</strong> - VLSIGuru Training Institute, 2025-Present</li>
           <li><strong>Bachelor degree in Electronics and Communication</strong> - RGMCET, 2021-2025 (CGPA: 7.9/10)</li>
           <li><strong>Intermediate (Stream-MPC)</strong> - The Nandyal Junior College, 2019-2021 (Marks: 959/1000)</li>
           <li><strong>SSC</strong> - SRK Vidyalayam High School, 2018-2019 (GPA: 9.3/10)</li>
       </ul>
   </section>
-
-  <!-- Projects -->
-  <section id="projects" class="projects">
-      <h3>Projects</h3>
-      <div class="projects-grid">
-          <div class="project-card">
-              <img src="Memory Module Block Diagram.jpg" alt="VLSI Project" />
-              <h4><strong>Memory Modeling & Verification</strong></h4>
-              <p>A memory project in Verilog models storage elements like RAM or ROM, where data can be written to or read from specific addresses.It typically uses register arrays with address, data, clock, and control signals (read/write enable).Such designs help simulate and implement cache, buffers, or main memory in digital systems.
-</p>
-          </div>
-          <div class="project-card">
-              <img src="Synchronous FIFO Block Diagram.jpg" alt="VLSI Project" />
-              <h4><strong>FIFO Implementation</strong></h4>
-              <p>A FIFO (First-In-First-Out) project in Verilog is used to temporarily store data so that the first written data is the first to be read.It typically has write pointer, read pointer, memory array, full and empty flags to manage data flow.FIFO is widely sed in data buffering, clock domain crossing, and communication systems.</p>
-          </div>
-          <div class="project-card">
-              <img src="images.png" alt="VLSI Project" />
-              <h4><strong>Project on Digital Image Processing</strong></h4>
-              <p>Enhancement of Specular and Diffuse Reflective Underwater Image Based on Optimal Contrast and Attenuation Difference(OCAD) Algorithm using MATLAB software.</p>
-          </div>
-      </div>
-  </section>
-
-
 
   <!-- Skills -->
   <section id="skills" class="skills">
@@ -97,16 +103,16 @@ semiconductor verification teams delivering reliable silicon designs.</strong>
               <h4>Verilog</h4>
           </div>
           <div class="item">
-              <h4>System Verilog</h4>
+              <h4>SystemVerilog</h4>
           </div>
           <div class="item">
               <h4>UVM</h4>
           </div>
-          <div class="item">
-              <h4>AXI Protocol</h4>
+        <div class="item">
+              <h4>APB Protocol</h4>
           </div>
           <div class="item">
-              <h4>C-Language</h4>
+              <h4>AXI Protocol</h4>
           </div>
       </div>
   </section>
@@ -118,7 +124,6 @@ semiconductor verification teams delivering reliable silicon designs.</strong>
           <span class="tool">GVIM</span>
           <span class="tool">ModelSim</span>
           <span class="tool">EDA Playground</span>
-          <span class="tool">Verdi</span>
           <span class="tool">Matlab</span>
           <span class="tool">MS Office</span>
       </div>
@@ -156,23 +161,23 @@ semiconductor verification teams delivering reliable silicon designs.</strong>
   <!-- Interests -->
   <section id="interests" class="interests">
       <h3>Leisure Activities</h3>
-      <div class="interests-grid">
-          <div class="interest-item">
-              <img src="chess.jpg"/>
-              Playing Chess
-          </div>
-          <div class="interest-item">
-              <img src="Online Quiz Logo Concept 2.jpg"/>
-              Online Quizzes
-          </div>
-          <div class="interest-item">
-              <img src="image.png"/>
-              Solving Puzzles
-          </div>
-          <div class="interest-item">
-              <img src="code.png"/>
-              Coding Practice
-          </div>
+        <div class="interests-grid">
+            <div class="interest-item">
+                  <img src="code.png"/>
+                Code-Snippet
+            </div>
+            <div class="interest-item">
+                <img src="chess.jpg"/>
+                Playing Chess
+            </div>
+            <div class="interest-item">
+                <img src="Online Quiz Logo Concept 2.jpg"/>
+                Online Quizzes
+            </div>
+            <div class="interest-item">
+                <img src="image.png"/>
+                Solving Puzzles
+            </div>
       </div>
   </section>
 <!-- Languages-->
