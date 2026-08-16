@@ -36,7 +36,7 @@
   <section id="personal" class="personal">
       
       <div class="personal-content">
-          <img src="mypic.png"
+          <img src="IMG.jpg"
                alt="Professional headshot of a VLSI design verification student" />
           <p><strong>Hi! I'm PRASAD GOGULA</strong></p>
          <p></p>
@@ -58,10 +58,10 @@
             <img src="axi.png" alt="VLSI Project" />
             <h4><strong>AXI Protocol</strong></h4>
             <p>Developed an AXI-compliant interface in Verilog using synthesizable RTL modules for high-speed communication.
-Implemented all AXI channels, including read/write address, data, and response paths.
-Ensured proper handshaking, burst transactions, and timing requirements.
-Validated functionality through simulation for protocol compliance, data integrity, and corner cases.
-</p>
+                Implemented all AXI channels, including read/write address, data, and response paths.
+                Ensured proper handshaking, burst transactions, and timing requirements.
+                Validated functionality through simulation for protocol compliance, data integrity, and corner cases.
+            </p>
         </div>
         <div class="project-card">
             <img src="APB Protocol Architecture.jpg" alt="VLSI Project" />
@@ -70,15 +70,59 @@ Validated functionality through simulation for protocol compliance, data integri
                 state transitions between setup and access phases, and further verified the implementation using UVM-based testbenches 
                 to validate read and write transactions, as well as to ensure proper protocol behavior and state transition accuracy 
                 under different scenarios.
-</p>
+            </p>
+            <a href="https://github.com/PRASAD-GOGULA/APB_Protocol" target="_blank">
+                <button>View My Project</button>
+            </a>
         </div>
+        <div class="project-card">
+            <img src="async fifo.png" alt="VLSI Project" />
+            <h4><strong>Asynchronous FIFO</strong></h4>
+            <p> Developed an Asynchronous FIFO using Verilog RTL for safe data transfer between different clockdomains using dual-clock
+                 architecture. Utilized Gray code-based read/write pointers and synchronizers to handle clock domain crossing (CDC) and
+                mitigate metastability issues. Created and executed 5 targeted test cases—full, empty, overflow, underflow, and concurrent read/write—to
+                verify functional correctness and corner-case handling using the QuestaSim tool.
+            </p>
+            <a href="https://github.com/PRASAD-GOGULA/Asynchronous-FIFO" target="_blank">
+                <button>View My Project</button>
+            </a>
+        </div>
+
         <div class="project-card">
             <img src="Dual Port RAM Architecture.jpg" alt="VLSI Project" />
             <h4><strong>Dual-Port Ram</strong></h4>
             <p>Designed and implemented a dual-port RAM in RTL using Verilog, enabling simultaneous read and write operations on 
                 independent ports with proper handling of address, data, and control signals, and developed a comprehensive testbench 
                 to verify concurrent access, read/write functionality, and edge cases, while leveraging waveform debugging to analyze 
-                signal activity, identify timing issues, and ensure correct and reliable simulation behavior.</p>
+                signal activity, identify timing issues, and ensure correct and reliable simulation behavior.
+            </p>
+            <a href="https://github.com/PRASAD-GOGULA/Dual-port-RAM" target="_blank">
+                <button>View My Project</button>
+            </a>
+        </div>
+        <div class="project-card">
+            <img src="wallace tree multiplier.png" alt="VLSI Project" />
+            <h4><strong>Wallace Tree Multiplier</strong></h4>
+            <p>A Wallace Tree Multiplier is a high-speed digital multiplier architecture that reduces the delay in multiplication by 
+                using a tree-like arrangement of full adders and half adders to efficiently sum partial products. It minimizes the 
+                number of sequential addition stages, resulting in faster computation compared to conventional array multipliers,
+                 making it well suited for high-performance digital signal processing and processor applications.
+            </p>
+            <a href="https://github.com/PRASAD-GOGULA/Wallace_Tree_Multiplier" target="_blank">
+                <button>View My Project</button>
+            </a>
+        </div>
+        <div class="project-card">
+            <img src="carry-look-ahead-adder.png" alt="VLSI Project" />
+            <h4><strong>Carry Look Ahead Adder</strong></h4>
+            <p>A Wallace Tree Multiplier is a high-speed digital multiplier architecture that reduces the delay in multiplication by 
+                using a tree-like arrangement of full adders and half adders to efficiently sum partial products. It minimizes the 
+                number of sequential addition stages, resulting in faster computation compared to conventional array multipliers,
+                 making it well suited for high-performance digital signal processing and processor applications.
+            </p>
+            <a href="https://github.com/PRASAD-GOGULA/Carry-Look-Ahead-Adder" target="_blank">
+                <button>View My Project</button>
+            </a>
         </div>
       </div>
   </section>
@@ -107,6 +151,12 @@ Validated functionality through simulation for protocol compliance, data integri
           <div class="item">
               <h4>SystemVerilog</h4>
           </div>
+            <div class="item">
+              <h4>SystemVerilog Assertions</h4>
+          </div>
+                    <div class="item">
+              <h4>Constrained Random Verification</h4>
+          </div>
           <div class="item">
               <h4>UVM</h4>
           </div>
@@ -125,9 +175,10 @@ Validated functionality through simulation for protocol compliance, data integri
       <div class="tools-list">
           <span class="tool">GVIM</span>
           <span class="tool">ModelSim</span>
+          <span class="tool">QuestaSim</span>
           <span class="tool">EDA Playground</span>
           <span class="tool">Matlab</span>
-          <span class="tool">MS Office</span>
+          <span class="tool">VNC Viewer</span>
       </div>
   </section>
 
